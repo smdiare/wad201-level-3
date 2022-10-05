@@ -34,7 +34,7 @@ const todoList = () => {
         OUTPUT_STRING+="\n"
       }
       else{
-        OUTPUT_STRING+="[]"+" "+element.title;
+        OUTPUT_STRING+="[ ]"+" "+element.title;
         if(element.dueDate!=today)
          OUTPUT_STRING+=" "+element.dueDate+"\n";
          else
